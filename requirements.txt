@@ -1,0 +1,15 @@
+python-dateutil
+numpy
+pandas
+sentence-transformers
+faiss-cpu
+requests
+python-docx
+pdfplumber
+tika
+streamlit
+ollama
+langchain
+scikit-learn
+tqdm
+REQ
