@@ -1,0 +1,23 @@
+Job Title: AI Governance Intern – Responsible AI & Compliance
+Location: Paris, France
+
+About the Role:
+We are building our Responsible AI practice and looking for an intern to support governance, documentation, risk assessment, and compliance activities.
+
+Responsibilities:
+- Assist in implementing AI Governance frameworks aligned with EU AI Act
+- Conduct risk assessments for internal AI use cases
+- Prepare compliance documentation (Model Cards, Datasheets, Audit Logs)
+- Contribute to internal AI governance dashboards and KPIs
+- Participate in cross-team governance meetings and policy discussions
+
+Required Skills:
+- Understanding of Responsible AI principles
+- Knowledge of documentation standards (Model Cards, Datasheets)
+- Familiarity with AI risks: fairness, transparency, bias, monitoring
+- Strong analytical and communication skills
+
+Preferred Qualifications:
+- Prior experience or coursework in AI ethics, compliance, or governance
+- Basic knowledge of SQL and Python for analysis
+- Ability to summarize complex topics clearly

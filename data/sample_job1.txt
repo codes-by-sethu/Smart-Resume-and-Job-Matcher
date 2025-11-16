@@ -1,0 +1,23 @@
+Job Title: Data Analyst – Business Insights
+Location: Paris, France
+
+Company Overview:
+We are a fast-growing SaaS company helping enterprises modernize their data workflows. Our analytics team supports product, marketing, and engineering with high-quality insights.
+
+Responsibilities:
+- Build and maintain scalable data pipelines for reporting and analytics
+- Perform exploratory data analysis (EDA) to identify trends and anomalies
+- Create dashboards using Python, SQL, and visualization tools (Matplotlib, Seaborn, PowerBI)
+- Work with cross-functional teams to generate insights for business decisions
+- Conduct data quality checks and improve accuracy of datasets
+
+Required Skills:
+- Strong Python and SQL knowledge
+- Experience with NumPy, Pandas, Matplotlib, Seaborn
+- Knowledge of ETL processes and workflow automation
+- Familiarity with statistical methods and business analytics
+- Good communication and documentation skills
+
+Preferred:
+- Experience with cloud environments (GCP, AWS or Azure)
+- Prior internship or work involving dashboard creation
