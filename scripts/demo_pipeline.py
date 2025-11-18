@@ -1,11 +1,15 @@
-# scripts/demo_pipeline.py
 import sys
+import os
+
+# Add the project root to Python path
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
+
 from ingestion.parsers import extract_text, parse_basic_sections
 from app.embeddings import Embedder, build_index_from_documents, save_index, load_index
 from app.retriever import retrieve
 from pathlib import Path
 import json
-
 def demo_from_files(file_list):
     docs = []
     for i, p in enumerate(file_list):
