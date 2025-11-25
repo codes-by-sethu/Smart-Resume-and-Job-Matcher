@@ -18,17 +18,18 @@
             <h2>Upload Documents</h2>
             <div class="upload-areas">
                 <div class="upload-area">
-                    <h3>📄 Resumes</h3>
+                    <h3>📄 Upload Resume</h3>
                     <input type="file" id="resumeUpload" multiple accept=".pdf,.docx,.txt">
                     <div id="resumeList" class="file-list"></div>
                 </div>
                 <div class="upload-area">
-                    <h3>💼 Jobs</h3>
+                    <h3>💼 Add Job Description</h3>
+                    <textarea id="jobDescription" placeholder="Paste job description here... Or upload job files below"></textarea>
                     <input type="file" id="jobUpload" multiple accept=".pdf,.docx,.txt">
                     <div id="jobList" class="file-list"></div>
                 </div>
             </div>
-            <button id="processBtn" onclick="processDocuments()">Process Documents</button>
+            <button id="processBtn" onclick="processDocuments()">Process & Analyze</button>
         </div>
 
         <div class="matching-section">
@@ -40,16 +41,25 @@
                 <button id="matchBtn" onclick="findMatches()">Find Job Matches</button>
             </div>
             
+            <!-- Real Job Listings -->
+            <div class="real-jobs-section">
+                <h3>💼 Real Job Opportunities</h3>
+                <div id="realJobs" class="real-jobs-container">
+                    <div class="loading">Searching for real jobs...</div>
+                </div>
+            </div>
+            
+            <!-- Match Results -->
             <div id="results" class="results-container"></div>
         </div>
 
         <div class="info-section">
             <h3>How it works:</h3>
             <ul>
-                <li>Upload resumes and job descriptions</li>
-                <li>System extracts skills and creates semantic embeddings</li>
-                <li>AI finds matches based on contextual relevance</li>
-                <li>Get detailed explanations for each match</li>
+                <li>Upload resume and paste job description</li>
+                <li>AI extracts skills and creates semantic embeddings</li>
+                <li>Get detailed match analysis with skill alignment</li>
+                <li>Discover real job opportunities with direct links</li>
             </ul>
         </div>
     </div>
